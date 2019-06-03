@@ -8,7 +8,7 @@ engine = create_engine(db_url)
 conn = engine.connect()
 
 try:
-    print('Connection has been established successfully.\nHere you can perform DDl operation.\nConnection object is: {}'.format(conn))
+    print('Connection has been established successfully.\nHere you can perform DDL operation.\nConnection object is: {}'.format(conn))
 except:
     print('Unable to connect to the database.')
 
